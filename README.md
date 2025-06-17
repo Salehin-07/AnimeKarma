@@ -67,6 +67,12 @@ CarmaAnime is ready to be deployed on [Render](https://render.com/). Make sure t
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
+## Website 
+Thsi is Already deployed to render.
+
+```
+https://animecarma.onrender.com/
+```
 ## License
 
 [MIT](LICENSE)
