@@ -78,7 +78,7 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 ## Creator
 
--[Salehin-07](https://github.com/Salehin-07)
+- [Salehin-07](https://github.com/Salehin-07)
 ---
 
 Made with ❤️ for anime fans.
