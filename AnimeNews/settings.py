@@ -7,7 +7,7 @@ SECRET_KEY = get_random_secret_key()
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    'carmaanime.onrender.com',
+    'animecarma.onrender.com',
     '100.20.92.101',
     '44.225.181.72', 
     '44.227.217.144',
