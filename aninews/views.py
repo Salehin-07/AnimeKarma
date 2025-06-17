@@ -34,7 +34,7 @@ def home(request, anime_id=None):
                 # Use feedparser for RSS feeds
                 feed = feedparser.parse(feed_url)
                 
-                for entry in feed.entries[:10]:  # Get up to 10 items per feed
+                for entry in feed.entries[:25]:  # Get up to 25 items per feed
                     # Parse publication date
                     pub_date = ""
                     if hasattr(entry, 'published'):
@@ -87,9 +87,9 @@ def home(request, anime_id=None):
                    news_type in item["description"].lower()
             ]
         else:
-            # Randomly select up to 5 recent news items
+            # Randomly select up to 25 recent news items
             random.shuffle(news_items)
-            news = news_items[:10]
+            news = news_items[:25]
 
         if not news and news_type:
             error_message = f"No news found for type '{news_type}'."
@@ -106,7 +106,7 @@ def home(request, anime_id=None):
             feed = feedparser.parse("https://www.animenewsnetwork.com/all/rss.xml")
             news_items = []
             
-            for entry in feed.entries[:10]:
+            for entry in feed.entries[:25]:
                 pub_date = ""
                 if hasattr(entry, 'published'):
                     pub_date = entry.published
@@ -125,7 +125,7 @@ def home(request, anime_id=None):
                 })
             
             random.shuffle(news_items)
-            news = news_items[:10]
+            news = news_items[:25]
             
         except Exception as e:
             error_message = f"Error fetching news: {str(e)}"
