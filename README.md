@@ -23,7 +23,7 @@ These instructions will help you set up and run the project on your local machin
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/<your-username>/CarmaAnime.git
+   git clone https://github.com/Salehin-07/CarmaAnime
    cd CarmaAnime
    ```
 
@@ -37,21 +37,18 @@ These instructions will help you set up and run the project on your local machin
    ```bash
    pip install -r requirements.txt
    ```
-
-4. **Configure environment variables:**
-   - Create a `.env` file in the root directory and add your secrets (like API keys, Django secret key, etc.).
-
-5. **Apply migrations:**
+4. **Apply migrations:**
    ```bash
+   python manage.py makemigration 
    python manage.py migrate
    ```
 
-6. **Run the development server:**
+5. **Run the development server:**
    ```bash
    python manage.py runserver
    ```
 
-7. **Access the application:**
+6. **Access the application:**
    Open [http://localhost:8000](http://localhost:8000) in your browser.
 
 ## Deployment
@@ -64,7 +61,7 @@ CarmaAnime is ready to be deployed on [Render](https://render.com/). Make sure t
 
 ## API Sources
 
-- The application fetches news from various anime news APIs. Please ensure you have the necessary API keys and permissions.
+- The application fetches news free APIs that doesn't need configuration. If you want you can use Any API.
 
 ## Contributing
 
@@ -79,6 +76,9 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 - Django documentation
 - Anime news API providers
 
+## Creator
+
+-[Salehin-07](https://github.com/Salehin-07)
 ---
 
 Made with ❤️ for anime fans.
