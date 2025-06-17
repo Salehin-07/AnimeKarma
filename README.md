@@ -71,7 +71,7 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 Thsi is Already deployed to render.
 
 ```
-https://animecarma.onrender.com/
+https://animekarma.onrender.com
 ```
 ## License
 
