@@ -1,6 +1,6 @@
-# CarmaAnime
+# AnimeKarma
 
-CarmaAnime is a Django-based web application that provides users with the latest anime news fetched from various APIs. The project is designed to deliver up-to-date information about the anime world in a user-friendly interface.
+AnimeKarma is a Django-based web application that provides users with the latest anime news fetched from various APIs. The project is designed to deliver up-to-date information about the anime world in a user-friendly interface.
 
 ## Features
 
@@ -17,7 +17,6 @@ These instructions will help you set up and run the project on your local machin
 
 - Python 3.8+
 - pip (Python package manager)
-- Git
 
 ### Installation
 
